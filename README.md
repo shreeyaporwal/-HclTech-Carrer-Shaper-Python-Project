@@ -14,25 +14,8 @@ The dataset contains columns like Transaction_ID, Transaction_Type, Amount_INR, 
 Some values in Amount_INR were missing.
 
 Steps Followed:
-Step 1: First we imported pandas and numpy and loaded the Excel file using read_excel.
 
-Step 2: We checked first few rows using head() and full info using info() to understand the data.
-
-Step 3: We found missing values in Amount_INR and filled them with median value. Median is used because it is not affected by very large values.
-
-Step 4: We checked duplicate Transaction_IDs to see if any transaction is repeated.
-
-Step 5: We calculated total credit and total debit using groupby.
-
-Step 6: We calculated mean, median and standard deviation of Amount_INR.
-
-Step 7: We checked transaction volume by Channel using value_counts and total value by City using groupby.
-
-Step 8: We counted flagged transactions and found flagged percentage.
-
-Step 9: We found top 10 largest transactions using nlargest.
-
-Step 10: At last we made amount bands like Low, Medium, High, Very High using pd.cut and counted how many transactions are in each band.
+First we loaded the Excel file and checked it with head and info. Then we filled the missing Amount_INR values with median and checked duplicate Transaction IDs. After that we calculated total credit and debit, mean, median, standard deviation, and checked transactions by channel and city. Then we found flagged transactions percentage and top 10 largest transactions. In the end we made amount bands like Low, Medium, High and Very High and counted them.
 
 
 Output:
