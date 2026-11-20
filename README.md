@@ -21,5 +21,6 @@ First we loaded the Excel file and checked it with head and info. Then we filled
 Output:
 After running we get total credit/debit, average amount, most used channel, city with highest transactions, flagged percentage, top 10 transactions and count of each amount band.
 
-8. Conclusion:
+
+Conclusion:
 From this analysis we can understand how customers are using bank services, which channel is most popular, and which transactions are flagged. This type of analysis is useful for banks to find fraud and to improve services.
